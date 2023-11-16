@@ -1,0 +1,17 @@
+CXX = cl
+
+# List of specific source files to compile
+SOURCE = $(wildcard *.cpp)
+
+# Name of the output executable
+EXECUTABLE = c
+
+OBJS = $(SRCS:.cpp=.obj)
+
+all: $(EXECUTABLE)
+$(EXECUTABLE): $(SOURCE)
+
+    $(CXX) $(CXXFLAGS) $(SOURCE) -o c
+    rm $(OBJS)
+    clear
+    ./c
