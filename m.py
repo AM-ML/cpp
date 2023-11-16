@@ -9,6 +9,9 @@ ln = len(argv)
 rn = ln+1
 sep = 0
 
+call("cls", shell=True)
+
+
 for i in range(1, ln):
 	if argv[i] == ".x":
 		sep = i
