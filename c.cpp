@@ -1,9 +1,8 @@
 #include <iostream>
-#include <utility>
-#include "c:/cs/back/cpp/f/lib/mod.hpp"
+// #include "c:/cs/back/cpp/f/lib/mod.hpp"
 
 
-using std::cout;using std::endl;using std::string;using std::swap;
+using namespace std;
 
 void f(){
   

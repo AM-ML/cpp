@@ -5,3 +5,7 @@ d:
 r:
 	cls
 	f\c.exe
+g:
+	g++ c.cpp -o c.exe -Ofast -march=native -flto
+	cls
+	c.exe
